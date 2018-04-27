@@ -1,0 +1,131 @@
+@media print 
+{
+		
+	.cardBG {
+	  border: solid 1px #000;
+	  margin: 5px 10px;
+	  border-radius: 5px;
+	  background-image: url(../img/cardbg.png);
+	  background-position: top center;
+	  background-repeat: no-repeat;
+	}
+
+	.cardBarcode {
+	 /* border: solid 1px red;*/
+	  height: 20px;
+	  width: 200px;
+	  text-align: center;
+	  margin-left: 15px !important;
+	  padding-left: 15px !important;
+	  margin-bottom:15px;
+	}
+
+	.cardBarcode img {
+	  width: 100%;
+	  height: 100%;
+	}
+
+
+	.cardPicha {
+	  /*border: solid 1px blue;*/
+	  height: 90px;
+	  width: 80px;
+	}
+
+	.cardPicha img {
+	  width: 100%;
+	  height: 100%;
+	}
+
+	.dataTable {
+	  /*border: solid 1px red;*/
+	  padding: 0px;
+	  margin: 0px;
+	}
+
+	.dataTable label{
+	  font-size: 5px;
+	}
+
+	.dataTable .tr_lbl {
+		/*border: solid 1px red;*/
+		width: 125px !important;
+		margin-left: 0px !important;
+		padding-left: 15px !important;
+		font-size: 12px;
+		font-family: "Arial Narrow", Arial, sans-serif;
+		font-weight: normal !important;
+		margin-bottom: 0px !important;
+	}
+
+	.dataTable .tr_form {
+		font-size: 13px;
+		font-family: "Arial Narrow", Arial, sans-serif;
+	}
+
+	.chamaLogo  {
+	  /*border: solid 1px blue;*/
+	  margin-top: 10px;
+	  margin-left: 15px;
+	  height: 50px;
+	  width: 50px;
+	  float: left;
+	}
+
+	.chamaLogo img{
+	  width: 100% !important;
+	  height: 100% !important;
+	}
+
+	.chamaSlogan {
+	  /*border: solid 1px blue;*/
+	  margin-top: 10px;
+	}
+
+	.cardWrapper {
+	  overflow: hidden;
+	  /*border: solid 2px #000;*/
+	  margin-bottom: 2px;
+	}
+
+	.cardHead {
+	  text-transform: uppercase;
+	  font-size: 17px;
+	  margin-bottom: 0px;
+	  margin-top: 12px;
+	  font-weight: bold;
+	  text-align: center;
+	}
+
+	.cardFoot {
+	  text-transform: uppercase;
+	  font-size: 13px;
+	  font-weight: bold;
+	  text-align: center;
+	  font-family: "Arial Narrow", Arial, sans-serif;
+	}
+
+	.card_info {
+		/*border: solid 1px blue;*/
+		float: left;
+		margin-top: 0px;
+		width: 350px;
+	}
+	
+	.bar_code {		
+	  position: absolute;
+	  bottom: -2px;
+	  left: 50px;
+	}
+
+	.card_img {
+		/*border: solid 1px blue;*/
+		position: absolute;
+		bottom: 40px;
+		right: 20px;
+	}
+
+	.img {
+    -webkit-print-color-adjust: exact;
+}
+}
